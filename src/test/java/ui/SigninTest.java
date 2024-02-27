@@ -59,7 +59,7 @@ public class SigninTest {
 	
 	@AfterSuite
 	public void cleanUp() {
-		// driver.close();
+		driver.quit();
 		System.out.println("Finished Automation");
 	}
 }

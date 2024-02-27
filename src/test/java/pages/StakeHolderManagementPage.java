@@ -24,7 +24,7 @@ public class StakeHolderManagementPage {
 		
 		/* Fill-up the form */
 		// Input name
-		common.getById("mat-input-9").sendKeys("My Test User");
+		common.getById("mat-input-9").sendKeys("New Test User");
 		
 		// Select Gender
 		common.getById("mat-select-value-17").click();
@@ -49,7 +49,7 @@ public class StakeHolderManagementPage {
 		common.getByXpath("//span[contains(text(),' No ')]").click();
 		
 		// input mobile number
-		common.getByXpath("//*[@id=\"mat-input-10\"]").sendKeys("0172134567");
+		common.getByXpath("//*[@id=\"mat-input-10\"]").sendKeys("01721000000");
 		
 		// Click Save button
 		common.getByXpath("//span[contains(text(),' Save ')]").click();
@@ -61,7 +61,7 @@ public class StakeHolderManagementPage {
 		//Click Search button
 		common.getByXpath("/html/body/app-root/layout/classy-layout/div/div[2]/mat-sidenav-container/mat-sidenav-content/app-stakeholders/div/app-table-wrapper/div/app-stl-table/div[2]/div/div[1]/div[2]/button[1]/span[1]/mat-icon")
 			.click();
-		common.getByXpath("//*[@placeholder='Search...']").sendKeys("My Test User");
+		common.getByXpath("//*[@placeholder='Search...']").sendKeys("New Test User");
 		common.getByXpath("//*[@placeholder='Search...']").sendKeys(Keys.RETURN);
 	}
 }
