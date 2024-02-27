@@ -5,7 +5,7 @@
     <classes>
       <class name="ui.SigninTest">
         <methods>
-          <include name="CreateStakeholder"/>
+          <include name="SearchStakeholder"/>
         </methods>
       </class> <!-- ui.SigninTest -->
     </classes>

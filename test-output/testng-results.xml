@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T21:10:44 BDT" name="Default suite" finished-at="2024-02-27T21:10:53 BDT" duration-ms="9007">
+    <groups>
+    </groups>
+    <test started-at="2024-02-27T21:10:44 BDT" name="Default test" finished-at="2024-02-27T21:10:53 BDT" duration-ms="9007">
+      <class name="ui.SigninTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:ui.SigninTest@15deb1dc]" started-at="2024-02-27T21:10:44 BDT" name="startUp" finished-at="2024-02-27T21:10:44 BDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="signInTest(java.lang.String,java.lang.String)[pri:1, instance:ui.SigninTest@15deb1dc]" started-at="2024-02-27T21:10:44 BDT" name="signInTest" data-provider="Signin" finished-at="2024-02-27T21:10:45 BDT" duration-ms="1076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method signature="GotoStakeholder()[pri:2, instance:ui.SigninTest@15deb1dc]" started-at="2024-02-27T21:10:45 BDT" name="GotoStakeholder" finished-at="2024-02-27T21:10:48 BDT" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GotoStakeholder -->
+        <test-method signature="CreateStakeholder()[pri:3, instance:ui.SigninTest@15deb1dc]" started-at="2024-02-27T21:10:48 BDT" name="CreateStakeholder" finished-at="2024-02-27T21:10:52 BDT" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateStakeholder -->
+        <test-method signature="VerifyCreatedStakeholder()[pri:4, instance:ui.SigninTest@15deb1dc]" started-at="2024-02-27T21:10:52 BDT" name="VerifyCreatedStakeholder" finished-at="2024-02-27T21:10:53 BDT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreatedStakeholder -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SigninTest@15deb1dc]" started-at="2024-02-27T21:10:53 BDT" name="cleanUp" finished-at="2024-02-27T21:10:53 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.SigninTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
